@@ -1,7 +1,6 @@
 const React = require('react');
 
 class Pancake extends React.Component {
-
   componentDidMount() {
     this.startInterval();
   }
