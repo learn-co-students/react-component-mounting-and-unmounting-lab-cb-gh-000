@@ -8,7 +8,7 @@
 3. Practice performing setup and teardown actions at the appropriate point in
    the React component lifecycle.
 
-## Overview
+## Overvihew
 
 You are a pancake chef in a fancy pancake restaurant. Time is ticking and customers are waiting, so you better get those pancakes out quick! Pancakes need to be cooked on either side and taken off the pan at the right moment before they burn for optimal deliciousness.
 
