@@ -3,7 +3,6 @@ import React from "react";
 class Pancake extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       timeCooked: 0,
       flippedAt: undefined
@@ -55,6 +54,15 @@ class Pancake extends React.Component {
     const { timeCooked, flippedAt } = this.state;
     let status = this.getPancakeStatus();
     this.props.takeItOff(id, status);
+  };
+
+
+  componentDidMount(){
+    this.startInterval()
+  };
+
+  componentWillUnmount(){
+    global.clearInterval(this.interval);
   };
 
   render() {
