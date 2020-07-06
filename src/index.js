@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Game from './components/Game';
-import './style.css';
 
 ReactDOM.render(
   <Game />,
-  document.getElementById('root')
+  document.getElementById('main')
 );
+
+require('./test/index-test.js'); // Leave this in!
